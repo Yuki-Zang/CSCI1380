@@ -27,10 +27,41 @@ For example, `execSync(`echo "${input}" | ./c/process.sh`, {encoding: 'utf-8'});
 
 const fs = require('fs');
 const {execSync} = require('child_process');
-const path = require('path');
+// const path = require('path');
 
 
 function query(indexFile, args) {
+  const queryString = args.join(' ');
+  const processedQuery = execSync(
+      `echo "${queryString}" | ./c/process.sh | ./c/stem.js`,
+      {encoding: 'utf-8'},
+  ).trim();
+
+  if (!processedQuery) {
+    console.error('Query string is empty after processing (likely stopwords).');
+    process.exit(1);
+  }
+
+  // Step 2: Read the global index file
+  if (!fs.existsSync(indexFile)) {
+    console.error(`Index file "${indexFile}" not found.`);
+    process.exit(1);
+  }
+
+  const globalIndex = fs.readFileSync(indexFile, 'utf-8');
+
+  // Step 3: Search for the processed query in the global index
+  const queryRegex = new RegExp(processedQuery.split(/\s+/).join('.*'), 'i');
+  const matchingLines = globalIndex
+      .split('\n')
+      .filter((line) => queryRegex.test(line));
+
+  // Step 4: Output the results
+  if (matchingLines.length > 0) {
+    matchingLines.forEach((line) => console.log(line));
+  } else {
+    console.log('No matching lines found.');
+  }
 }
 
 const args = process.argv.slice(2); // Get command-line arguments
