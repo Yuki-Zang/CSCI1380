@@ -42,3 +42,34 @@ The code inside `non-distribution` is organized as follows:
 
 To submit your solution, run `./scripts/submit.sh` from the root of the stencil. This will create a
 `submission.zip` file which you can upload to the autograder.
+
+
+
+# M0: Setup & Centralized Computing
+
+* name: `Yuki Zang`
+
+* email: `matianyu_zang@brown.edu`
+
+* cslogin: `mzang2`
+
+
+## Summary
+
+> 
+My implementation involves three key components that address tasks T1–8: setting up the crawler, writing shell scripts to execute files, and deploying the project both locally and on AWS to record performance. The most challenging aspect was writing the shell scripts, as I had limited prior experience with them.
+
+
+## Correctness & Performance Characterization
+
+To characterize correctness, I developed `<number of tests>` that test the following cases: <summarize>.
+
+
+*Performance*: The throughput of various subsystems is described in the `"throughput"` portion of package.json. The characteristics of my development machines are summarized in the `"dev"` portion of package.json.
+
+
+## Wild Guess
+
+> How many lines of code do you think it will take to build the fully distributed, scalable version of your search engine? Add that number to the `"dloc"` portion of package.json, and justify your answer below.
+
+I believe it will take over 5,000 lines of code to build a fully distributed, scalable search engine, given the multiple components involved, such as core engine logic, scalability, concurrency, networking, deployment, and infrastructure.
