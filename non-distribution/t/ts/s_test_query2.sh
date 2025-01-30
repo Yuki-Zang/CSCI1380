@@ -10,12 +10,12 @@ cd "$(dirname "$0")/..$R_FOLDER" || exit 1
 
 DIFF=${DIFF:-diff}
 
-term="stuff level"
+term="stuff level test"
 
 cat "$T_FOLDER"/d/d7.txt > d/global-index.txt
 
 
-if $DIFF <(./query.js "$term") <(cat "$T_FOLDER"/d/d9.txt) >&2;
+if $DIFF <(./query.js "$term") <(cat "$T_FOLDER"/d/d10.txt) >&2;
 then
     echo "$0 success: search results are identical"
     exit 0

@@ -1,0 +1,128 @@
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1
+node:internal/modules/package_json_reader:92
+        throw error;
+        ^
+
+SyntaxError: Error parsing /home/ubuntu/CSCI1380/non-distribution/package.json: Unexpected token ] in JSON at position 839
+    at parse (<anonymous>)
+    at read (node:internal/modules/package_json_reader:79:16)
+    at readPackage (node:internal/modules/package_json_reader:140:10)
+    at readPackageScope (node:internal/modules/package_json_reader:157:19)
+    at shouldUseESMLoader (node:internal/modules/run_main:77:15)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:122:24)
+    at node:internal/main/run_main_module:28:49 {
+  path: '/home/ubuntu/CSCI1380/non-distribution/package.json'
+}
+
+Node.js v18.19.1

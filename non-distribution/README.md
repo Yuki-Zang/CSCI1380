@@ -62,7 +62,13 @@ My implementation involves three key components that address tasks T1–8: setti
 
 ## Correctness & Performance Characterization
 
-To characterize correctness, I developed `<number of tests>` that test the following cases: <summarize>.
+To characterize correctness, I developed 8 tests that test the following files:
+stem.js
+getText.js 
+getURLs.js *2
+process.sh
+merge.js
+query.js *2
 
 
 *Performance*: The throughput of various subsystems is described in the `"throughput"` portion of package.json. The characteristics of my development machines are summarized in the `"dev"` portion of package.json.

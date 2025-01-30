@@ -1,0 +1,6 @@
+http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+https://cs.brown.edu/courses/csci1380/sandbox/3/static/oscar/js/jquery/jquery-1.9.1.min.js
+https://cs.brown.edu/courses/csci1380/sandbox/3/static/oscar/js/bootstrap3/bootstrap.min.js
+https://cs.brown.edu/courses/csci1380/sandbox/3/static/oscar/js/oscar/ui.js
+https://cs.brown.edu/courses/csci1380/sandbox/3/static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js
+https://cs.brown.edu/courses/csci1380/sandbox/3/static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js
