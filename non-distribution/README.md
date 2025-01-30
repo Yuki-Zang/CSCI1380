@@ -64,10 +64,15 @@ My implementation involves three key components that address tasks T1–8: setti
 
 To characterize correctness, I developed 8 tests that test the following files:
 stem.js
+
 getText.js 
+
 getURLs.js *2
+
 process.sh
+
 merge.js
+
 query.js *2
 
 
