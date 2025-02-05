@@ -40,7 +40,7 @@
     "dloc": 5000
   },
   "report-m1": {
-    "hours": 8,
+    "hours": 9,
     "jsloc": 200,
     "dev": {
       "cpu-no": 4,
@@ -49,9 +49,7 @@
     },
     "serialization latency":{
         "dev" : [0.037, 0.055, 0.126],
-        "aws" : []
+        "aws" : [0.029, 0.047, 0.317]
     }
   }
 }
-
-
