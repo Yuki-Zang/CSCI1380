@@ -1,5 +1,5 @@
 {
-  "name": "cs1380:m0",
+  "name": "cs1380",
   "version": "1.0.0",
   "author": {
     "name": "Yuki Zang",
@@ -23,7 +23,7 @@
     "javascript-obfuscator": "^4.1.0",
     "jest": "^29.7.0"
   },
-  "report": {
+  "report-m0": {
     "hours": 7,
     "jsloc": 150,
     "sloc": 100,
@@ -38,5 +38,20 @@
       "gs": []
     },
     "dloc": 5000
+  },
+  "report-m1": {
+    "hours": 8,
+    "jsloc": 200,
+    "dev": {
+      "cpu-no": 4,
+      "mem-gb": 16,
+      "ssd-gb": 228
+    },
+    "serialization latency":{
+        "dev" : [0.037, 0.055, 0.126],
+        "aws" : []
+    }
   }
 }
+
+
