@@ -51,5 +51,22 @@
         "dev" : [0.037, 0.055, 0.126],
         "aws" : [0.029, 0.047, 0.317]
     }
+  },
+  "report-m2": {
+    "hours": 10,
+    "jsloc": 300,
+    "dev": {
+      "cpu-no": 4,
+      "mem-gb": 16,
+      "ssd-gb": 228
+    },
+    "comm throughput":{
+        "dev" : "0.80 req/ms",
+        "aws" : []
+    },
+    "comm latency":{
+        "dev" : "1.24 ms/req",
+        "aws" : []
+    }
   }
 }
